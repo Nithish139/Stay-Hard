@@ -1,0 +1,315 @@
+.Menu{
+    position:fixed;
+    width: 100%;
+    z-index: 2;
+}
+
+.Menu>.Header-Outer-Container{
+    height:200px;
+    position:relative;
+}
+
+.Menu>.Header-Outer-Container>img{
+    width:100%;
+    height:100%;
+}
+
+.Menu>.Header-Outer-Container>.Header-Container{
+    display:flex;
+    position:absolute;
+    justify-content:space-around;
+    width:100%;
+}
+
+.Menu>.Header-Outer-Container>.Header-Container>.Header{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    padding-top:25px;
+    padding-bottom:25px;
+    width:75%;
+}
+.Menu>.Header-Outer-Container>.Header-Container>.Header>h1{
+    margin: 20px;
+    font-size: 100px;
+    color: whitesmoke;
+}
+.Menu>.Header-Outer-Container>.Header-Container>.Header>.Nav{
+    display:flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    align-items: center;
+
+}
+.Menu>.Header-Outer-Container>.Header-Container>.Header>.Nav>li>button{
+    margin: 20px;
+    font-size: 75px;
+    background: none;
+    border: none;
+    color: whitesmoke;
+}
+
+.First_Look{
+    display: flex;
+    flex-direction: column;
+    position:static;
+}
+
+.First_Look>.First_Look_Img{
+    height:2000px;
+    position: relative;
+    top:200px;
+}
+
+.First_Look>.First_Look_Img>button{
+    position: absolute;
+    border-radius: 80px;
+    padding: 50px;
+    font-size: 100px;
+    font-weight:600;
+    left:4500px;
+    top:1250px;
+    background-color:#df4b1f;
+    color: white;
+}
+
+.First_Look>.First_Look_Img>img{
+    height:100%;
+    width:100%;
+}
+
+.First_Look>.First_Look_Msg{
+    display: flex;
+    height: 2500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.First_Look>.First_Look_Msg>img{
+    height:80%;
+    border-top-left-radius: 250px;
+    border-bottom-right-radius: 250px;
+    border-style: solid;
+    border-width: 20px;
+    border-color: red;
+    border-top: 0;
+    border-right: 0;
+    margin-right: 300px;
+}
+
+.First_Look>.First_Look_Msg>.Content{
+    width:30%;
+    font-size: 70px;
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+.First_Look>.First_Look_Msg>.Content>.Name{
+    font-family:'Courier New', Courier, monospace;
+    color: #df4b1f;
+}
+
+.First_Look>.First_Look_Msg>.Content>.bold{
+    font-weight: 900;
+}
+
+.Features{
+    position: static;
+}
+
+.Features>.Features-Container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1300px 1300px;
+    height: 100%;
+}
+
+.Features>.Features-Container>.Group_Training{
+    grid-column: span 1;
+    position: relative;
+}
+
+.Features>.Features-Container>.Personal_Training{
+    grid-column: span 1;
+    position: relative;
+}
+
+.Features>.Features-Container>.Weight_Loss_Gain{
+    grid-column: span 1;
+    position: relative;
+}
+
+.Features>.Features-Container>.Endurance_Training{
+    grid-column: span 1;
+    position: relative;
+}
+
+.Features>.Features-Container>.Group_Training>.Content{
+    position: absolute;
+    left:10px;
+    top:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+    color:white;
+    width:50%;
+    margin-left: 750px;
+    z-index: 1;
+}
+
+.Features>.Features-Container>.Personal_Training>.Content{
+    position: absolute;
+    left:10px;
+    top:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+    color:white;
+    width:50%;
+    margin-left: 750px;
+    z-index: 1;
+}
+
+.Features>.Features-Container>.Weight_Loss_Gain>.Content{
+    position: absolute;
+    left:10px;
+    top:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+    color:white;
+    width:50%;
+    margin-left: 750px;
+    z-index: 1;
+}
+
+.Features>.Features-Container>.Endurance_Training>.Content{
+    position: absolute;
+    left:10px;
+    top:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+    color:white;
+    width:50%;
+    margin-left: 750px;
+    z-index: 1;
+}
+
+.Features>.Features-Container>.Endurance_Training>.Content>button{
+    border-radius: 80px;
+    padding: 50px;
+    font-size: 75px;
+    font-weight:600;
+    background-color:#df4b1f;
+    color: white;
+}
+
+.Features>.Features-Container>.Weight_Loss_Gain>.Content>button{
+    border-radius: 80px;
+    padding: 50px;
+    font-size: 75px;
+    font-weight:600;
+    background-color:#df4b1f;
+    color: white;
+}
+
+.Features>.Features-Container>.Personal_Training>.Content>button{
+    border-radius: 80px;
+    padding: 50px;
+    font-size: 75px;
+    font-weight:600;
+    background-color:#df4b1f;
+    color: white;
+}
+
+.Features>.Features-Container>.Group_Training>.Content>button{
+    border-radius: 80px;
+    padding: 50px;
+    font-size: 75px;
+    font-weight:600;
+    background-color:#df4b1f;
+    color: white;
+}
+
+
+.Features>.Features-Container>.Group_Training>img{
+    width:100%;
+    height:100%;
+    filter:brightness(30%);
+}
+
+.Features>.Features-Container>.Personal_Training>img{
+    width:100%;
+    height:100%;
+    filter:brightness(40%);
+}
+
+.Features>.Features-Container>.Weight_Loss_Gain>img{
+    width:100%;
+    height:100%;
+    filter:brightness(30%);
+}
+
+.Features>.Features-Container>.Endurance_Training>img{
+    width:100%;
+    height:100%;
+    filter:brightness(30%);
+}
+
+.Sneek_Peak{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Sneek_Peak>h1{
+    font-size: 150px;
+}
+
+.Sneek_Peak>.Gym_Photos{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 100px;
+    row-gap: 100px;
+}
+
+.Sneek_Peak>.Gym_Photos>*{
+    height:1000px;
+    width:1200px;
+    border-radius: 100px;
+}
+
+.Footer{
+    margin-top: 100px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Footer>.Social_Media>*{
+    width:75px;
+    height:75px;
+}
+
+.Footer>.Sign{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    width:100%;
+}
+
+.Footer>.Sign>h1{
+    color:white;
+    font-size: 50px;
+}
